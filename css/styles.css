@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+}   
+body{
+    text-align: center;
+    font-family:  Helvetica, Arial,sans-serif;    
+}
+.header{
+    background-color: #e0ebe8;
+}
+
+.info{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+}
+#cloud1{
+    position: absolute;
+    right: 300px;
+   top: 20px;
+}
+#cloud2{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
+
+h1 ,h2, h3{
+    color: #59d7bb;
+}
+h1{
+ font-size: 4.5rem;
+    font-family: 'Sacramento', cursive;
+}
+.name{
+    padding: 50px;
+    font-size: 5rem;
+}
+.info{
+    color: #59d7bb;
+    font-size: 2rem;
+}
+p{
+    line-height: 2;
+}
+.cloud{
+    background-color:  #eaf6f6;
+}
+
+.profile{
+    height: 165px;
+    width: 210px;
+    margin: 50px auto 10px auto;
+}
+
+
+
+ul{
+    list-style-type: none;
+    align-items: center;
+    margin-left: 35px;
+}
+li{
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+hr{
+    width: 10%;
+    size: 5px;
+    margin: 50px auto;
+    line-height: x;
+    border: 5px solid grey;
+    border-style: dotted none none;
+    border-width: 10px;
+    size: 5px;
+}
+
+.my-info{
+    width: 25%;
+    margin: auto;
+
+}
+.underline{
+    text-decoration: underline;
+}
+
+
+h2{
+    margin-bottom: 30px;
+}
+.short-text{
+    width: 75%;
+    margin: auto;
+}
+
+.middle-container{
+    width: 75%;
+    margin: auto;
+}
+.skill-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-text{
+    
+    text-align: left;
+}
+h3{
+    margin: auto auto 10px 75px;
+    margin-bottom: 10px;
+
+}
+
+.design{
+    margin-right: 106px;
+}
+#skill2{
+       margin: auto auto auto 106px;
+}
+
+.btn{
+    border: 3px solid #59d7bb;
+    padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #59d7bb;
+}
+  .btn:hover{
+    background: #59d7bb;
+    color: white;
+    border: 3px solid white;
+    font-weight: bold;
+  }
+
+  
+  
+.btn-dark
+{
+        border: 3px solid #333030;
+        padding: 8px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #333030;
+    }
+    .footer{
+        margin-top: 50px;
+        background: #59d7bb;
+        margin-bottom: 0;
+        padding: 15px ;  
+        padding-bottom: 5px;
+    }
+.btn-dark:hover
+{       background: #333030;
+        color: white;
+        border: 3px solid #59d7bb;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-link{
+    margin: auto 10px auto;
+}
+.brand{
+    color: #22612d;
+}
+p{
+    color: #494646;
+}
